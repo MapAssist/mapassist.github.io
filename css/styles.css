@@ -371,6 +371,13 @@ header img {
   margin: 2px 3px 0;
 }
 
+.row ul {
+  list-style: none;
+}
+.row p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .row.intro {
   padding: 60px 0;
 }
@@ -380,21 +387,14 @@ header img {
 .row.features {
   margin-bottom: 60px;
 }
-.row.languages ul,
-.row.features ul {
-  list-style: none;
-}
 .row.download {
   background-color: rgba(108, 33, 14, 0.25);
   padding-top: 60px;
-}
-.row.releases {
-  background-color: rgba(108, 33, 14, 0.25);
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   margin-bottom: 60px;
 }
-.row.releases .button {
-  margin-bottom: 0;
+.row.download .wrap-button {
+  margin-bottom: 10px;
 }
 .row.install {
   margin-bottom: 40px;
