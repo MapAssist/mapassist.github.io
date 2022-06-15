@@ -380,11 +380,17 @@ ul li .footnote {
 .row.intro {
   padding: 60px 0;
 }
-.discord.button {
+.row.intro h3 {
+  margin-bottom: 10px;
+}
+.discord {
+  margin-top: 60px;
+}
+.discord .button {
   height: 84px;
   padding-top: 11px;
 }
-.discord.button img {
+.discord .button img {
   max-width: 200px;
 }
 .row.featured a {
